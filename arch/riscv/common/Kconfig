@@ -93,6 +93,8 @@ config CPU_VIRT
 	select CPU_C
 	select CPU_PMP
 	select CPU_COUNTERS
+	select CPU_SV39
+	select CPU_SV48
 
 config CPU_32G
 	bool
